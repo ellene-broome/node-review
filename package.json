@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
     "url": "https://github.com/ellene-broome/node-review/issues"
   },
   "homepage": "https://github.com/ellene-broome/node-review#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
